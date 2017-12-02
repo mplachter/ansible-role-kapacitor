@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/viasite-ansible/ansible-role-kapacitor.svg?branch=master)](https://travis-ci.org/viasite-ansible/ansible-role-kapacitor)
+[![Ansible Role](https://img.shields.io/ansible/role/19857.svg)](https://galaxy.ansible.com/mplachter/kapacitor) [![Build Status](https://travis-ci.org/mplachter/ansible-role-kapacitor.svg?branch=master)](https://travis-ci.org/mplachter/ansible-role-kapacitor)
 
 Kapacitor
 =========
@@ -8,6 +8,11 @@ An Ansible role to install, configure, and manage [Kapacitor](https://github.com
 Requirements
 ------------
 
+* Using
+  * Ansible 2.4 +
+* Testing
+  * Molecule 2.5
+
 Prior knowledge/experience with [InfluxDB](https://github.com/influxdb/influxdb) and Kapacitor is highly recommended. Full documentation is available [here](https://docs.influxdata.com/kapacitor/v0.2/introduction/getting_started/).
 
 Installation
@@ -16,7 +21,7 @@ Installation
 Either clone this repository, or install through Ansible Galaxy directly using the command:
 
 ```
-ansible-galaxy install rossmcdonald.kapacitor
+ansible-galaxy install mplachter.kapacitor
 ```
 
 Role Variables
@@ -67,4 +72,4 @@ Author
 ------
 
 Created by [Ross McDonald](https://github.com/rossmcdonald).
-
+Updated and maintained by [Matt Plachter](https://github.com/mplachter) & [Stanislav Popov](https://github.com/popstas)
